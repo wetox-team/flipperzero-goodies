@@ -1,0 +1,269 @@
+{
+  "Created": "proxmark3",
+  "FileType": "mfcard",
+  "blocks": {
+    "0": "A2A65C2D750804008500AABBCCDDEEFF",
+    "1": "A2A65C2D000000000000000000000000",
+    "2": "A2A65C2D000000000000000000000000",
+    "3": "FF71B2314FFFFF078069FF71B2314FFF",
+    "4": "00000000000000000000000000000000",
+    "5": "00000000000000000000000000000000",
+    "6": "00000000000000000000000000000000",
+    "7": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "8": "00000000000000000000000000000000",
+    "9": "00000000000000000000000000000000",
+    "10": "00000000000000000000000000000000",
+    "11": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "12": "00000000000000000000000000000000",
+    "13": "00000000000000000000000000000000",
+    "14": "00000000000000000000000000000000",
+    "15": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "16": "00000000000000000000000000000000",
+    "17": "00000000000000000000000000000000",
+    "18": "00000000000000000000000000000000",
+    "19": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "20": "00000000000000000000000000000000",
+    "21": "00000000000000000000000000000000",
+    "22": "00000000000000000000000000000000",
+    "23": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "24": "00000000000000000000000000000000",
+    "25": "00000000000000000000000000000000",
+    "26": "00000000000000000000000000000000",
+    "27": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "28": "00000000000000000000000000000000",
+    "29": "00000000000000000000000000000000",
+    "30": "00000000000000000000000000000000",
+    "31": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "32": "00000000000000000000000000000000",
+    "33": "00000000000000000000000000000000",
+    "34": "00000000000000000000000000000000",
+    "35": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "36": "00000000000000000000000000000000",
+    "37": "00000000000000000000000000000000",
+    "38": "00000000000000000000000000000000",
+    "39": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "40": "00000000000000000000000000000000",
+    "41": "00000000000000000000000000000000",
+    "42": "00000000000000000000000000000000",
+    "43": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "44": "00000000000000000000000000000000",
+    "45": "00000000000000000000000000000000",
+    "46": "00000000000000000000000000000000",
+    "47": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "48": "00000000000000000000000000000000",
+    "49": "00000000000000000000000000000000",
+    "50": "00000000000000000000000000000000",
+    "51": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "52": "00000000000000000000000000000000",
+    "53": "00000000000000000000000000000000",
+    "54": "00000000000000000000000000000000",
+    "55": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "56": "00000000000000000000000000000000",
+    "57": "00000000000000000000000000000000",
+    "58": "00000000000000000000000000000000",
+    "59": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF",
+    "60": "00000000000000000000000000000000",
+    "61": "00000000000000000000000000000000",
+    "62": "00000000000000000000000000000000",
+    "63": "FFFFFFFFFFFFFF078069FFFFFFFFFFFF"
+  },
+  "Card": {
+    "UID": "A2A65C2D",
+    "SAK": "08",
+    "ATQA": "0400"
+  },
+  "SectorKeys": {
+    "0": {
+      "KeyA": "FF71B2314FFF",
+      "KeyB": "FF71B2314FFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block0": "rdAB wrAB incAB dectrAB",
+        "block1": "rdAB wrAB incAB dectrAB",
+        "block2": "rdAB wrAB incAB dectrAB",
+        "block3": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "1": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block4": "rdAB wrAB incAB dectrAB",
+        "block5": "rdAB wrAB incAB dectrAB",
+        "block6": "rdAB wrAB incAB dectrAB",
+        "block7": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "2": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block8": "rdAB wrAB incAB dectrAB",
+        "block9": "rdAB wrAB incAB dectrAB",
+        "block10": "rdAB wrAB incAB dectrAB",
+        "block11": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "3": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block12": "rdAB wrAB incAB dectrAB",
+        "block13": "rdAB wrAB incAB dectrAB",
+        "block14": "rdAB wrAB incAB dectrAB",
+        "block15": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "4": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block16": "rdAB wrAB incAB dectrAB",
+        "block17": "rdAB wrAB incAB dectrAB",
+        "block18": "rdAB wrAB incAB dectrAB",
+        "block19": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "5": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block20": "rdAB wrAB incAB dectrAB",
+        "block21": "rdAB wrAB incAB dectrAB",
+        "block22": "rdAB wrAB incAB dectrAB",
+        "block23": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "6": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block24": "rdAB wrAB incAB dectrAB",
+        "block25": "rdAB wrAB incAB dectrAB",
+        "block26": "rdAB wrAB incAB dectrAB",
+        "block27": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "7": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block28": "rdAB wrAB incAB dectrAB",
+        "block29": "rdAB wrAB incAB dectrAB",
+        "block30": "rdAB wrAB incAB dectrAB",
+        "block31": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "8": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block32": "rdAB wrAB incAB dectrAB",
+        "block33": "rdAB wrAB incAB dectrAB",
+        "block34": "rdAB wrAB incAB dectrAB",
+        "block35": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "9": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block36": "rdAB wrAB incAB dectrAB",
+        "block37": "rdAB wrAB incAB dectrAB",
+        "block38": "rdAB wrAB incAB dectrAB",
+        "block39": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "10": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block40": "rdAB wrAB incAB dectrAB",
+        "block41": "rdAB wrAB incAB dectrAB",
+        "block42": "rdAB wrAB incAB dectrAB",
+        "block43": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "11": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block44": "rdAB wrAB incAB dectrAB",
+        "block45": "rdAB wrAB incAB dectrAB",
+        "block46": "rdAB wrAB incAB dectrAB",
+        "block47": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "12": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block48": "rdAB wrAB incAB dectrAB",
+        "block49": "rdAB wrAB incAB dectrAB",
+        "block50": "rdAB wrAB incAB dectrAB",
+        "block51": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "13": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block52": "rdAB wrAB incAB dectrAB",
+        "block53": "rdAB wrAB incAB dectrAB",
+        "block54": "rdAB wrAB incAB dectrAB",
+        "block55": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "14": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block56": "rdAB wrAB incAB dectrAB",
+        "block57": "rdAB wrAB incAB dectrAB",
+        "block58": "rdAB wrAB incAB dectrAB",
+        "block59": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    },
+    "15": {
+      "KeyA": "FFFFFFFFFFFF",
+      "KeyB": "FFFFFFFFFFFF",
+      "AccessConditions": "FF078069",
+      "AccessConditionsText": {
+        "block60": "rdAB wrAB incAB dectrAB",
+        "block61": "rdAB wrAB incAB dectrAB",
+        "block62": "rdAB wrAB incAB dectrAB",
+        "block63": "wrAbyA rdCbyA wrCbyA rdBbyA wrBbyA",
+        "UserData": "69"
+      }
+    }
+  }
+}
