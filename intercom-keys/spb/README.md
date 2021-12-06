@@ -5,10 +5,10 @@
 <pre>
 Array
 (
-    [ibutton] => <a href="./keys/ibutton">./keys/ibutton</a>,
-    [lfrfid] => <a href="./keys/lfrfid">./keys/lfrfid</a>,
-    [nfc] => <a href="./keys/nfc">./keys/nfc</a>,
-    [lfrfid-by-proxmark3] => <a href="./keys/dumped-by-proxmark3">./keys/dumped-by-proxmark3</a>,
+    [ibutton] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/spb/keys/ibutton">./keys/ibutton</a>,
+    [lfrfid] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/spb/keys/lfrfid">./keys/lfrfid</a>,
+    [nfc] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/spb/keys/nfc">./keys/nfc</a>,
+    [lfrfid-by-proxmark3] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/spb/keys/dumped-by-proxmark3">./keys/dumped-by-proxmark3</a>,
 )
 </pre>
 
