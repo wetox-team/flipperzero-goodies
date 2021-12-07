@@ -1,4 +1,4 @@
-# Some usefull data for flipper 
+# Some usefull data for flipper zero
 
 <pre>
 Array
