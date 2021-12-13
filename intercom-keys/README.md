@@ -5,7 +5,8 @@
 <pre>
 Array
 (
-    [spb] => <a href="./spb">./spb</a>
+    [spb] => <a href="./spb">./spb</a>,
+    [msk] => <a href="./msk">./msk</a>
 )
 </pre>
 
