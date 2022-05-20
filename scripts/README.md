@@ -1,6 +1,13 @@
 # Useful scripts
 
-Полезные скрипты для работы с файлами FFF
+Полезные скрипты
+
+<pre>
+Array
+(
+    [FlipperFileFormat] => <a href="//github.com/wetox-team/flipperzero-goodies/tree/master/scripts/fff">./fff</a>
+)
+</pre>
 
 ---
 
