@@ -4,6 +4,7 @@
 Array
 (
     [intercom-keys] => <a href="./intercom-keys">./intercom-keys</a>
+    [scripts] => <a href="./srcipts">./srcipts</a>
 )
 </pre>
 
