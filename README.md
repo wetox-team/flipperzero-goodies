@@ -4,7 +4,7 @@
 Array
 (
     [intercom-keys] => <a href="./intercom-keys">./intercom-keys</a>,
-    [scripts] => <a href="//github.com/wetox-team/flipperzero-goodies/tree/master/scripts">./scripts</a>
+    [scripts] => <a href="./scripts">./scripts</a>
 )
 </pre>
 
