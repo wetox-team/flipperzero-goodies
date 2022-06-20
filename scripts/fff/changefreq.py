@@ -23,7 +23,7 @@ if not os.path.isfile(args.file):
     exit()
 
 # convert the fractional frequency to the whole number
-# example: 433.93 becomes 43393000
+# example: 433.92 becomes 433920000
 if "." in args.newfreq:
   freqs = args.newfreq.split(".")
   newfreq = freqs[0] + freqs[1] + ("0" * (6 - len(freqs[1])))
