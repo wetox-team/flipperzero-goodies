@@ -5,7 +5,7 @@
 <pre>
 Array
 (
-    [ibutton] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/brn/keys/ibutton">./keys/ibutton</a>,
+    [ibutton] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/brn/keys/ibutton">./keys/ibutton</a>
 )
 </pre>
 
