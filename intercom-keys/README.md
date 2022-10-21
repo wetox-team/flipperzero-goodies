@@ -11,6 +11,8 @@ Array
 )
 </pre>
 
+p.s. if you have universal intercom keys, but you can't scan it, then get into contact with me: sunny.capt@tuta.io | https://t.me/lambda_function or just open a pull request
+
 ---
 
 __from wetox with love__
