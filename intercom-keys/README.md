@@ -7,7 +7,8 @@ Array
 (
     [spb] => <a href="./spb">./spb</a>,
     [msk] => <a href="./msk">./msk</a>,
-    [brn] => <a href="./brn">./brn</a>
+    [brn] => <a href="./brn">./brn</a>,
+    [unknwn] => <a href="./unknwn">./unknwn</a>,
 )
 </pre>
 
