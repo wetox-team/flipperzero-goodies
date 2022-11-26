@@ -10,3 +10,7 @@ Array
     [nfc] => <a target="_blank" href="//github.com/wetox-team/flipperzero-goodies/tree/master/intercom-keys/kgn/keys/nfc">./keys/nfc</a>
 )
 </pre>
+
+---
+
+__from wetox with love__
