@@ -8,6 +8,7 @@ Array
     [spb] => <a href="./spb">./spb</a>,
     [msk] => <a href="./msk">./msk</a>,
     [brn] => <a href="./brn">./brn</a>,
+    [kgn] => <a href="./kgn">./kgn</a>,
     [unknwn] => <a href="./unknwn">./unknwn</a>,
 )
 </pre>
