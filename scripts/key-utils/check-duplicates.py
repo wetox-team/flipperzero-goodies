@@ -12,15 +12,19 @@ class KeyTypes:
     nfc = 'nfc'
 
 
-def parse_data(file_path: Path):
+def parse_data(file_path: Path, key_type: str):
+    key_word = 'UID' if key_type == KeyTypes.nfc else 'Data'
+
     with file_path.open() as file:
         key_data = file.read()
 
-    if 'Data' not in key_data:
+    if key_word not in key_data:
         return ''
 
-    start_index = key_data.index('\nData: ') + 7
-    end_index = start_index + key_data[start_index + 1:].index('\n')
+    start_index = key_data.index(f'{key_word}: ') + len(key_word) + 2
+    end_index = len(key_data)
+    if '\n' in key_data[start_index + 1:]:
+        end_index = start_index + key_data[start_index + 1:].index('\n')
 
     return key_data[start_index:end_index]
 
@@ -30,7 +34,7 @@ def handle_keys(dir_path, key_type):
         if not file.is_file() or file.name == '.gitkeep':
             continue
 
-        data = parse_data(file).replace(' ', '').strip()
+        data = parse_data(file, key_type).replace(' ', '').strip()
         if not data:
             continue
 
@@ -51,7 +55,7 @@ def check_duplicates():
 def main():
     global KEYS
 
-    print('CHECK FOR DUPLICATE KEYS:\n')
+    print('\nCHECK FOR DUPLICATE KEYS:\n')
 
     KEYS.clear()
     check_duplicates()
