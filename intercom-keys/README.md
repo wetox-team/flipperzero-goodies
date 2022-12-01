@@ -9,6 +9,7 @@ Array
     [msk] => <a href="./msk">./msk</a>,
     [brn] => <a href="./brn">./brn</a>,
     [kgn] => <a href="./kgn">./kgn</a>,
+    [starnew] => <a href="./starnew">./starnew</a>,
     [unknwn] => <a href="./unknwn">./unknwn</a>,
 )
 </pre>
