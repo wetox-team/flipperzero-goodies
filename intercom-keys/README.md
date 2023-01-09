@@ -16,7 +16,7 @@ Array
 
 p.s. if you have universal intercom keys, but you can't scan it, then get into contact with me: sunny.capt@tuta.io | https://t.me/lambda_function or just open a pull request
 
-p.p.s. keys for one city may work in another city/country
+p.p.s. **keys for one city may work in another city/country**
 
 ---
 
