@@ -7,3 +7,4 @@
 5. https://github.com/themaks - meignanmaxime@hotmail.fr
 6. https://github.com/HepoH3 - VoultBoy@yandex.ru 
 7. https://github.com/jimdi - i@jimdi.me
+8. https://github.com/Subnull - subnull1337@gmail.com
