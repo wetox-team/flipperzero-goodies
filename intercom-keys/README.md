@@ -20,4 +20,16 @@ p.p.s. **keys for one city may work in another city/country**
 
 ---
 
+## How to use
+
+| unziped folders | folder in Flipper's SD card |
+|----------|----------|
+| /path/to/flipperzero-goodies_keys_release_*/ibutton    | /ibutton  2   |
+| /path/to/flipperzero-goodies_keys_release_*/lfrfid    | /lfrfid   |
+| /path/to/flipperzero-goodies_keys_release_*/nfc    | /nfc  |
+                                                                             
+Download the zip file from [the latest release page](https://github.com/wetox-team/flipperzero-goodies/releases/latest) and read README.md
+
+---
+
 __from wetox with love__
