@@ -11,6 +11,7 @@ Array
     [kgn] => <a href="./kgn">./kgn</a>,
     [starnew] => <a href="./starnew">./starnew</a>,
     [unknwn] => <a href="./unknwn">./unknwn</a>,
+    [debug] => <a href="./debug">./debug</a>
 )
 </pre>
 
