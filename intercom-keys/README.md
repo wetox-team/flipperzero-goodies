@@ -15,7 +15,7 @@ Array
 )
 </pre>
 
-p.s. if you have universal intercom keys, but you can't scan it, then get into contact with me: sunny.capt@tuta.io | https://t.me/lambda_function or just open a pull request
+p.s. if you have universal intercom keys, but you can't scan it, then get into contact with me: sunny.capt@tuta.io | https://t.me/lambda_function or just create a pull request
 
 p.p.s. **keys for one city may work in another city/country**
 
@@ -25,7 +25,7 @@ p.p.s. **keys for one city may work in another city/country**
 
 | unziped folders | folder in Flipper's SD card |
 |----------|----------|
-| /path/to/flipperzero-goodies_keys_release_*/ibutton    | /ibutton  2   |
+| /path/to/flipperzero-goodies_keys_release_*/ibutton    | /ibutton  |
 | /path/to/flipperzero-goodies_keys_release_*/lfrfid    | /lfrfid   |
 | /path/to/flipperzero-goodies_keys_release_*/nfc    | /nfc  |
                                                                              
