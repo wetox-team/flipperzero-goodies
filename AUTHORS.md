@@ -1,6 +1,6 @@
 #### Thanks to everyone who participated in filling https://github.com/wetox-team/flipperzero-goodies repository:
 
-1. https://github.com/rozetkinrobot - escherevatsky@gmail.com
+1. https://github.com/rozetkinrobot - rozetkin@rozetk.in
 2. https://github.com/SunnyCapt - sunny.capt@tuta.io
 3. https://github.com/Astrrra - me@astrra.space
 4. https://github.com/ivanbarsukov - i.barsukov@protonmail.com
