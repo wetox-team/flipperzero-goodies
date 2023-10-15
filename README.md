@@ -8,6 +8,8 @@ Array
 )
 </pre>
 
+follow the updates in [wetox_flipper](https://t.me/wetox_flipper) channel
+
 ---
 
 __from wetox with love__
