@@ -57,12 +57,12 @@ build-keys-release: clear-keys-release
 	done;
 	cp ./LICENSE ./AUTHORS.md ./release/
 	echo 'Source repo: https://github.com/wetox-team/flipperzero-goodies\n\n' >> ./release/README.md
-	echo '```\ncp -r '${RELEASE_NAME}'/ibutton/ /path/to/flipper_sd_card/' >> ./release/README.md
-	echo 'cp -r '${RELEASE_NAME}'/nfc/ /path/to/flipper_sd_card/' >> ./release/README.md
-	echo 'cp -r '${RELEASE_NAME}'/lfrfid/ /path/to/flipper_sd_card/' >> ./release/README.md
-	echo 'cp -r '${RELEASE_NAME}'/ibutton_fuzzer/ /path/to/flipper_sd_card/  # https://github.com/DarkFlippers/Multi_Fuzzer' >> ./release/README.md
-	echo 'cp -r '${RELEASE_NAME}'/lfrfid_fuzzer/ /path/to/flipper_sd_card/  # https://github.com/DarkFlippers/Multi_Fuzzer' >> ./release/README.md
-	echo 'cp -r '${RELEASE_NAME}'/mifare_fuzzer/ /path/to/flipper_sd_card/  # https://github.com/spheeere98/mifare_fuzzer \n```' >> ./release/README.md
+	echo '```\ncp -r '${RELEASE_NAME}'/ibutton /path/to/flipper_sd_card/' >> ./release/README.md
+	echo 'cp -r '${RELEASE_NAME}'/nfc /path/to/flipper_sd_card/' >> ./release/README.md
+	echo 'cp -r '${RELEASE_NAME}'/lfrfid /path/to/flipper_sd_card/' >> ./release/README.md
+	echo 'cp -r '${RELEASE_NAME}'/ibutton_fuzzer /path/to/flipper_sd_card/  # https://github.com/DarkFlippers/Multi_Fuzzer' >> ./release/README.md
+	echo 'cp -r '${RELEASE_NAME}'/lfrfid_fuzzer /path/to/flipper_sd_card/  # https://github.com/DarkFlippers/Multi_Fuzzer' >> ./release/README.md
+	echo 'cp -r '${RELEASE_NAME}'/mifare_fuzzer /path/to/flipper_sd_card/  # https://github.com/spheeere98/mifare_fuzzer \n```' >> ./release/README.md
 	echo "\nNFC - `find release -type f -name '*.nfc' | wc -l` items\n" >> ./release/README.md
 	echo "RFID - `find release -type f -name '*.rfid' | wc -l` items\n" >> ./release/README.md
 	echo "IButton - `find release -type f -name '*.ibtn' | wc -l` items" >> ./release/README.md
