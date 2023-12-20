@@ -19,7 +19,7 @@ p.s. if you have universal intercom keys, but you can't scan it, then get into c
 
 p.p.s. **keys for one city may work in another city/country**
 
-p.p.p.s. follow the updates in [wetox_flipper](https://t.me/wetox_flipper) channel
+p.p.p.s. follow the updates in [wetox_crew](https://t.me/wetox_crew) channel
 
 ---
 
