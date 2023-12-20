@@ -8,7 +8,7 @@ Array
 )
 </pre>
 
-follow the updates in [wetox_flipper](https://t.me/wetox_flipper) channel
+follow the updates in [wetox_crew](https://t.me/wetox_crew) channel
 
 ---
 
