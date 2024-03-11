@@ -1,8 +1,8 @@
-from collections import defaultdict
 from pathlib import Path
+from collections import defaultdict
 
 
-KEYS_DIR = Path(__file__).parent.parent.parent / 'intercom-keys'
+KEYS_DIR = Path(__file__).parents[2] / 'intercom-keys'
 KEYS = defaultdict(list)
 
 
@@ -12,7 +12,7 @@ class KeyTypes:
     nfc = 'nfc'
 
 
-def parse_data(file_path: Path, key_type: str):
+def parse_data(file_path: Path, key_type: str) -> str:
     key_word = 'UID' if key_type == KeyTypes.nfc else 'Data'
 
     with file_path.open() as file:
@@ -29,7 +29,7 @@ def parse_data(file_path: Path, key_type: str):
     return key_data[start_index:end_index]
 
 
-def handle_keys(dir_path, key_type):
+def handle_keys(dir_path: Path, key_type: str) -> None:
     for file in (dir_path / key_type).iterdir():
         if not file.is_file() or file.name == '.gitkeep':
             continue
@@ -41,20 +41,18 @@ def handle_keys(dir_path, key_type):
         KEYS[f'{key_type}:{data}'].append(file)
 
 
-def check_duplicates():
+def check_duplicates() -> None:
     for city_dir in KEYS_DIR.iterdir():
         if not city_dir.is_dir():
             continue
 
         keys_dir = city_dir / 'keys'
-        handle_keys(keys_dir, KeyTypes.ibtn)
-        handle_keys(keys_dir, KeyTypes.rfid)
-        handle_keys(keys_dir, KeyTypes.nfc)
+        handle_keys(Path(keys_dir), KeyTypes.ibtn)
+        handle_keys(Path(keys_dir), KeyTypes.rfid)
+        handle_keys(Path(keys_dir), KeyTypes.nfc)
 
 
-def main():
-    global KEYS
-
+def main() -> None:
     print('\nCHECK FOR DUPLICATE KEYS:\n')
 
     KEYS.clear()
