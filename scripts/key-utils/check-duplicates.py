@@ -47,9 +47,9 @@ def check_duplicates() -> None:
             continue
 
         keys_dir = city_dir / 'keys'
-        handle_keys(Path(keys_dir), KeyTypes.ibtn)
-        handle_keys(Path(keys_dir), KeyTypes.rfid)
-        handle_keys(Path(keys_dir), KeyTypes.nfc)
+        handle_keys(keys_dir, KeyTypes.ibtn)
+        handle_keys(keys_dir, KeyTypes.rfid)
+        handle_keys(keys_dir, KeyTypes.nfc)
 
 
 def main() -> None:
